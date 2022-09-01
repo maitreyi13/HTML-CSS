@@ -1,0 +1,73 @@
+body {
+    padding: 2em;
+}
+
+.BL_logo {
+    width: 15%;
+}
+
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: rgb(185, 108, 95);
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+
+.footerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: rgb(61, 116, 61);
+    font-weight: bold;
+    padding: 30px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainContentItem {
+    text-align: left;
+    border: 5px solid rgb(156, 72, 72);
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(77, 133, 133);
+}
+
+.sideBarLeftItem {
+    background: rgb(141, 129, 61);
+}
+
+.sideBarRightItem {
+    background: rgb(83, 80, 124);
+}
+
+.sideBarItem {
+    flex: 1 0 0;
+    border: 5px solid rgb(156, 72, 72);
+}
+
+.mainContentItem {
+    flex: 3 0px;
+}
+
+.sideBarLeftItem {
+    order: 1;
+}
+
+.mainContentItem {
+    order: 2;
+}
+
+.sideBarRightItem {
+    order: 3;
+}
